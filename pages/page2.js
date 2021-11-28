@@ -1,15 +1,15 @@
 import Head from "next/head";
 import Layout from "../components/Layout";
 
-const Home = () => {
+const Page2 = () => {
   return (
     <Layout>
       <Head>
-        <title>Dev-center</title>
+        <title>Dev-center | Page2</title>
       </Head>
-      <section>this is a section</section>
+      <section>Page 2</section>
     </Layout>
   );
 };
 
-export default Home;
+export default Page2;
